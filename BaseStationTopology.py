@@ -62,5 +62,5 @@ class TerrestrialCellular(object):
 
 if __name__ == '__main__':
 	a = TerrestrialCellular()
-	b = a.gen_bs_list()
-	c = a.show_topo()
+	a.gen_bs_list()
+	a.show_topo()
